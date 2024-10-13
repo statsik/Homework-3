@@ -56,9 +56,6 @@ img{
     color: #2e2f42;
     gap:40px;
 }
-.header-navigation-list-part{
-    padding: 24px 0;
-}
 .header-navigation-list-part:last-child{
     margin-right: 0;
 }
@@ -68,7 +65,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    padding: 10px 20px;
+    padding: 24px 0;
 }
 .header-adress{
     display: flex;
@@ -162,13 +159,6 @@ img{
 }
 .headline{
     padding: 120px 0;
-}
-.visually-hidden{
-    font-size: 0;
-    line-height: 0;
-    height: 0;
-    width: 0;
-    overflow: hidden;
 }
 .headline-list{
     display: flex;
