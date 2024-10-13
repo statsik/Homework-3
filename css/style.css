@@ -56,7 +56,7 @@ img{
     color: #2e2f42;
     gap:40px;
 }
-.header-navigation-list-part-link{
+.header-navigation-list-part{
     padding: 24px 0;
 }
 .header-navigation-list-part:last-child{
@@ -164,15 +164,18 @@ img{
     padding: 120px 0;
 }
 .visually-hidden{
-    position: fixed;
-    transform: scale(0);
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
 }
 .headline-list{
     display: flex;
     gap: 24px;
 }
 .headline-list-part{
-    width: calc((100% - 72px) / 4); 
+    flex-basis: calc((100% - 72px) / 4);
 }
 .headline-list-part-title{
     line-height: 1.5rem;
