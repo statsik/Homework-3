@@ -193,8 +193,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 8px;
-    padding-left: 0px;
 }
 .our-team{
     background-color: rgba(244, 244, 253, 1);
@@ -207,7 +205,6 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 .our-team-member-img{
@@ -216,16 +213,12 @@ img{
 }
 .our-team-members{
     display: flex;
-    padding-top: 72px;
-    margin-left:auto;
-    margin-right: auto;
-    padding-bottom: 120px;
     gap:24px;
 }
 .our-team-member{
     width: calc((100% - 72px) / 4); 
-    padding-right: 24px;
     border-radius: 0px 0px 4px 4px;
+    background-color: #ffff;
 }
 .our-team-member-container{
     padding: 32px 0;
@@ -241,8 +234,6 @@ img{
     text-align: center
 }
 .our-team-member h3,p{
-    background-color: rgba(255, 255, 255, 1);
-    padding:32px 16px;
     padding-left: auto;
     padding-right: auto;
 }
@@ -259,9 +250,6 @@ img{
 .our-portfolio{
     padding-top: 120px;
     padding-bottom: 120px; 
-}
-.container-our-portfolio{
-    padding: 120px 0;
 }
 .our-portfolio_title{
     font-size: 36px;
@@ -306,13 +294,26 @@ img{
 .logo-footer{
     display: inline-block;
     margin-bottom: 16px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
 .logo-studio-footer{
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
     color:#f4f4fd;
 }
 .footer-paragraf{
     line-height: 1.5rem;
     font-weight: 400;
-    color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    color: rgba(244, 244, 253, 1);
 }
